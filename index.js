@@ -10,3 +10,12 @@ for (let i = 0; i < arrow.length; i++) {
         paragraph[i].classList.toggle('project-description');
     })
 }
+
+let menu = document.getElementById('menu-icon');
+let menuItems = document.getElementsById('itens-menu');
+
+function showMenu() {
+    menuItems.style.display = 'block';
+}
+
+menu.addEventListener('click', showMenu);
