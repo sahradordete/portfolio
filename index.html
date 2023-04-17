@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Sahra's portfolio</title>
+</head>
+<body>
+    <header>
+        <img src="/img/Sahraland.svg" alt="">
+        <nav>
+            <ul id="menu" class="list">
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="aboutme">
+            <img src="img/profile-pic.png" alt="" class="pic">
+            <div id="text-aboutme">
+                <h1>Hi, my name is Sahra!</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus placeat deleniti recusandae asperiores repudiandae dicta magni corrupti, facere, voluptate sapiente aperiam mollitia maxime eos sit obcaecati, possimus nostrum assumenda vitae.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p class="text">Some of the projects I've worked on since I started my Coding bootcamp. You can access my repositories following the Github link in each section.</p>
+            
+            <ul class="list">
+                <li>
+                    <div class="project-title">
+                        <span class="arrow-icon"><img src="img/arrow-icon.svg" alt="Arrow down icon"></span>
+                        <span>Star Wars Dashboard</span>
+                    </div>
+                    <div class="project-description">
+                        <p>This project was developed following the tutorial from the Youtube Channel Papo de Dev. It was a really interesting shadowing project to understand more about Javascript and how to structure elements in the page.</p>
+                        
+                        <p>Although I did not created the layout and code myself I still tried to understand the bits of code to acquire as much knowledge as possible. To see the source code access <a href="https://github.com/sahradordete/dashboard-star-wars">my repository</a>.</p>
+
+                        <img src="img/dashboard-starwars.jpg" alt="Screenshot of the star wars project" class="pj-img">
+                    </div>    
+                </li>
+
+                <li>
+                    <div class="project-title">
+                        <span class="arrow-icon"><img src="img/arrow-icon.svg" alt="Arrow down icon"></span>
+                        <span>SunnySide Landing Page</span>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            The Sunnyside project is a fictional agency Landing page developed using CSS and HTML only. It was really challenging at first and even thought I only work in this project for a week it gave me some insights about how to structure a web page and organize a project. 
+                        </p>
+                        <p>
+                            Taking this challenge helped me to understand a bit more about CSS Flexbox and Grid Layout and get a sense of how the properties work with parent and child containers. I also tried to develop a mobile version of the page. You can check more about it in my <a href="https://github.com/sahradordete/sunnyside">Github repo</a>!
+                        </p>
+                        
+                        <img src="img/sunnyside.png" alt="" class="pj-img">
+                        <img src="img/preview-sunnyside-mobile.png" alt="" class="pj-img">
+                        
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project-title">
+                        <span class="arrow-icon"><img src="img/arrow-icon.svg" alt="Arrow down icon"></span>
+                        <span>Mixed Messages</span>
+                    </div>
+                    <div class="project-description">
+                        <p>Mixed Messages is a random advice/fortune teller generator using only JavaScript. The messages are randomly generator and some parts of the messages change each time. The goal of the project was to create a program that returns a new message each time the user reloads the program.</p>
+
+                        <p>The program is simple and it logs the messages to the console however it was very useful to practice key concepts of objects and arrays.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="list">
+                <li><img src="img/html-icon.svg" alt="" class="stack"></li>
+                <li><img src="img/css3-icon.svg" alt="" class="stack"></li>
+                <li><img src="img/javascript-icon.svg" alt="" class="stack"></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p class="text">Interested in working with me? Let’s connect! I would love to hear about your project!</p>
+            <ul class="list">
+                <li><a href="https://github.com/sahradordete" target="_blank"><img src="img/github-icon.svg" alt="" class="social"></a></li>
+                <li><a href="https://www.linkedin.com/in/sahradordete/" target="_blank"><img src="img/linkedin-icon.svg" alt="" class="social"></a></li>
+                <li><a href="mailto:sahrad.ovalhes7@gmail.com"><img src="img/email-icon.svg" alt="" class="social"></a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Icons by <a href="https://icons8.com.br/" target="_blank">Icons8</a></p>
+    </footer>
+</body>
+</html>
