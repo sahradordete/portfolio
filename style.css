@@ -176,11 +176,6 @@ footer {
         font-size: 1.4rem;
     }
 
-    #aboutme {
-        flex-direction: column;
-        align-items: center;
-    }
-
     header {
         width: 100%;
         height: 3.5rem;
@@ -195,6 +190,29 @@ footer {
         display: block;
         width: 3rem;
     }
+    /* TESTING */
+    /* #itens-menu {
+        background-color: var(--pink);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5rem;
+        padding: 2rem;    
+    }
+
+    .mobile li {
+        display: block;
+        /* padding-top: 1.2rem; */
+    /* } */
+
+    /* .open {
+        display: block;
+    } */ 
+    
+    #aboutme {
+        flex-direction: column;
+        align-items: center;
+    } 
 
     .pic {
         max-width: 100%;
@@ -220,6 +238,6 @@ footer {
     .pj-img {
         max-width: 100%;
     }
-}
 
+}
 /* TABLET */

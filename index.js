@@ -11,11 +11,19 @@ for (let i = 0; i < arrow.length; i++) {
     })
 }
 
-let menu = document.getElementById('menu-icon');
-let menuItems = document.getElementsById('itens-menu');
 
-function showMenu() {
-    menuItems.style.display = 'block';
-}
+// Interactivity menu
+// Fix that later 
 
-menu.addEventListener('click', showMenu);
+// let menu = document.getElementById('menu-icon');
+// let menuItems = document.getElementsByClassName('mobile')[1];
+
+// function showMenu() {
+//     if (menuItems.classList.contains('open')) {
+//         menuItems.classList.remove('open');
+//     } else {
+//         menuItems.classList.add('open');
+//     }
+// }
+
+// menu.addEventListener('click', showMenu);
