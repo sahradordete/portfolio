@@ -50,7 +50,7 @@ a {
 /* HEADER SECTION */
 
 header {
-    background-color: var(--light-purple);
+    background-color: red;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -208,7 +208,7 @@ footer {
     /* .open {
         display: block;
     } */ 
-    
+
     #aboutme {
         flex-direction: column;
         align-items: center;
